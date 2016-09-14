@@ -12,4 +12,16 @@ public class VerificationSections {
 		
 		return valido;
 	}
+	
+	public boolean verificaDominio(String host){
+		
+		boolean valido = false;
+		
+		if(!host.startsWith(".")){
+			valido = true;
+		}
+		
+		return valido;
+	}
+	
 }

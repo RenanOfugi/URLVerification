@@ -22,5 +22,10 @@ public class VerificationSectionsTest {
 		
 		assertTrue("Url começa com http", section.verificaProtocolo(url));
 	}
+	
+	@Test
+	public void testVerificaDominio(){
+		
+	}
 
 }
